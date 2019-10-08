@@ -7,11 +7,12 @@
   <ul>
 <li>Name: {{ User.name }}</li>
 <li>First Name: {{ User.firstName }}</li> 
+<li>My Quote:<input [(ngModel)]="User.quote" ></li>
 </ul>
 
+<p>{{User.quote}}
+</p>
 <button (click)="hideElement = !hideElement">Age</button>
 <div *ngIf="hideElement">
    {{ User.age}}
 </div>
-<input [(ngModel)]="quote">
-{{quote}}
