@@ -1,10 +1,13 @@
+<menu></menu>
 
+
+
+<router-outlet></router-outlet>
    
 
-  <sign-up></sign-up>
-  <app-user-profile></app-user-profile>
 
-  <h1>List of films</h1>
+
+  <h1 *appShowMovies= "showMoviesList">List of films</h1>
   <ul *appShowMovies= "showMoviesList">
     <li appHighlight>The Killer Shrews de Ray Kellog</li>
     <li>Willard de Daniel Mann</li>
