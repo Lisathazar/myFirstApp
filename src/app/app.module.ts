@@ -8,7 +8,6 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { HighlightDirective } from './highlight.directive';
 import { ShowMoviesDirective } from './show-movies.directive';
 import { MenuComponent } from './menu/menu.component';
-import { RouterOutletDirective } from './router-outlet.directive';
 import { ROUTES } from './app.routes';
 import { RouterModule } from '@angular/router';
 
@@ -20,7 +19,6 @@ import { RouterModule } from '@angular/router';
     HighlightDirective,
     ShowMoviesDirective,
     MenuComponent,
-    RouterOutletDirective
   ],
   imports: [
     BrowserModule,
