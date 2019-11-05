@@ -22,7 +22,8 @@ export class UserProfileComponent implements OnInit {
     firstName : 'John',
     age : 25,
     quote : '',
-    photo : 'https://randomuser.me/api/portraits/lego/2.jpg'
+    photo : 'https://randomuser.me/api/portraits/lego/2.jpg',
+    email: '',
   };
   hideElement: boolean = true;
 
